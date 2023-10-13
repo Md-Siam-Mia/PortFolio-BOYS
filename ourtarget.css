@@ -1,0 +1,83 @@
+html {
+  scroll-behavior: smooth;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  background-color: blueviolet;
+  line-height: 33px;
+}
+
+body {
+  background-color: blueviolet;
+}
+
+header {
+  display: flex;
+  margin: auto;
+  background-color: #7800e6;
+}
+
+nav {
+  display: block;
+  margin: auto;
+}
+
+nav a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  display: -webkit-inline-flex;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+
+nav a:hover {
+  color: rgb(255, 61, 61);
+}
+
+nav a[class="active"] {
+  color: pink;
+}
+
+div.logo img {
+  margin: 10px 10px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+}
+
+div.container {
+  margin: 20px 20px;
+  display: -webkit-inline-box;
+  color: white;
+  font-size: 20px;
+}
+div.container img {
+  border-radius: 3px;
+  width: 200px;
+}
+div.container img:hover {
+  transform: scale(1.03);
+}
+
+div.box {
+  border-radius: 3px;
+  text-align: center;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  background-color: rgb(114, 34, 189);
+  max-width: 400px;
+}
+div.box:hover {
+  transform: scale(1.01);
+}
+h1.target {
+  color: whitesmoke;
+}
+p.description {
+  color: rgb(223, 223, 248);
+}
+footer{
+    text-align: center;
+    color: whitesmoke;
+}

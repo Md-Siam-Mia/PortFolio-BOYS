@@ -1,0 +1,51 @@
+body {
+    background-color: #00b300;
+    color: whitesmoke;
+    letter-spacing: 1px;
+}
+
+.container {
+    text-align: center;
+    display: block;
+    height: auto;
+    width: auto;
+}
+
+form {
+    margin-top: 150px;
+}
+
+input {
+    width: 300px;
+    padding: 5px 10px;
+    margin: 10px 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+input[type='submit'] {
+    width: 80px;
+    margin: auto;
+    font-size: 16px;
+    background-color: red;
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 190, 190);
+    font-size: 20px;
+    font-style: bold;
+}
+
+label {
+    font-size: 18px;
+}
+
+label.password {
+    margin-right: 67px;
+}
+
+h2 {
+    font-size: 30px;
+}

@@ -1,0 +1,101 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    background-color: blueviolet;
+    line-height: 33px;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+header {
+    display: flex;
+    margin: auto;
+    background-color: #7800e6;
+}
+
+nav {
+    display: block;
+    margin: auto;
+}
+
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    display: -webkit-inline-flex;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+nav a:hover {
+    color: rgb(255, 61, 61);
+}
+
+nav a[class="active"]{
+    color: pink;
+}
+
+div.logo img {
+    margin: 10px 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+}
+
+h1.name{
+    color: rgb(175, 175, 255);
+}
+
+div.container {
+    float: left;
+    margin-top: 100px;
+    width: 49%;
+}
+div.container2 {
+    float: right;
+    margin-top: 100px;
+    width: 49%;
+}
+
+div.box img {
+    border-radius: 15px;
+    height: 200px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+div.box {
+    width: auto;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #3e0078;
+}
+
+p.description {
+    font-size: 22px;
+    color: white;
+    vertical-align: top;
+}
+
+strong {
+    color: #00caff;
+}
+
+strong:hover {
+    cursor: pointer;
+}
+
+h1.head {
+    font-size: 22px;
+    color: white;
+    margin-left: 13px;
+}
+footer{
+    text-align: center;
+    color: whitesmoke;
+}

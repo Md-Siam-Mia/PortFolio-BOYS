@@ -1,0 +1,171 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    background: linear-gradient(blueviolet,rgb(149, 97, 197));
+    line-height: 33px;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+header {
+    display: flex;
+    margin: auto;
+    background-color: #7800e6;
+}
+
+nav {
+    display: block;
+    margin: auto;
+}
+
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    display: -webkit-inline-flex;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+nav a:hover {
+    color: rgb(255, 61, 61);
+}
+
+nav a[class="active"] {
+    color: pink;
+}
+
+div.logo img {
+    margin: 10px 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+}
+
+div.container {
+    clear: both;
+    float: left;
+    margin-top: 100px;
+    width: auto;
+}
+
+div.box img {
+    border-radius: 15px;
+    height: 200px;
+    display: flex;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+div.box {
+    width: 750px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #3e0078;
+    display: flex;
+}
+
+p.description {
+    font-size: 22px;
+    color: white;
+    vertical-align: top;
+}
+
+strong {
+    color: #00caff;
+}
+
+strong:hover {
+    cursor: pointer;
+}
+
+div.others-container {
+    float: left;
+    background-color: #3e0078;
+    width: 750px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+p.description2 {
+    font-size: 22px;
+    color: white;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+
+h2.title {
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-size: 22px;
+    color: white;
+}
+
+div.right-container {
+    display: block;
+    float: right;
+    margin: auto;
+    margin-top: 100px;
+    width: auto;
+}
+
+div.members {
+    width: 420px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #3e0078;
+    display: block;
+    margin: auto;
+}
+
+div.memimg {
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 30px 10px;
+    background-color: #28004e;
+}
+
+div.memimg img {
+    border-radius: 3px;
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+
+p.name {
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+
+h1.head1 {
+    font-size: 22px;
+    color: white;
+    margin-left: 13px;
+}
+
+h1.head {
+    padding: 0;
+    display: block;
+    font-size: 22px;
+    color: white;
+}
+
+p.last {
+    color: white;
+    display: block;
+    margin: auto;
+}
+footer{
+    text-align: center;
+    color: whitesmoke;
+}
